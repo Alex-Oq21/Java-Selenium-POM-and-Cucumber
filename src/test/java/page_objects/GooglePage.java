@@ -12,9 +12,9 @@ public class GooglePage extends BasePage {
         super(driver);
     }
 
-    public void Search_Somenthing(){
+    public void Search_Something(String pageToSearch){
         WebElement search = driver.findElement(searchPage);
-        search.sendKeys("Wikipedia");
+        search.sendKeys(pageToSearch);
         search.sendKeys(Keys.ENTER);
 
     }
