@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class WikipediaPage extends BasePage{
-    By article_title = By.xpath("//*[@id=\"Stephen_Jay_Gould\"]/a");
+    By article_title = By.xpath("//*[@id=\"Telephone\"]/a");
     public WikipediaPage(WebDriver driver) {
         super(driver);
     }
